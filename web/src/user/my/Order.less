@@ -1,0 +1,20 @@
+.rt-order {
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 14px;
+
+        &>div{
+            flex: 1;
+            border-bottom: 5px solid transparent;
+            padding: 5px 6px;
+            &.curr{
+                border-bottom-color: #800010;
+                color: #800010;
+            }
+        }
+    }
+}

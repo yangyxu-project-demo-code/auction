@@ -1,0 +1,67 @@
+.rt-sifapaimai {
+    .search {
+
+    }
+
+    .tags {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: #FFF;
+        margin: 5px 0px;
+        &>*{
+            flex: 1;
+        }
+        &>div:first-child{
+            border-right: 1px solid #f7f7f7;
+        }
+        &>div{
+            height: 100%;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            &>div:first-child{
+                border-bottom: 1px solid #f7f7f7;
+            }
+            &>*{
+                flex: 1;
+            }
+        }
+        img{
+            width: 160px;
+            padding: 8px;
+        }
+    }
+    .types{
+        background-color: #FFF;
+        padding: 5px 0px;
+        .item-list{
+            width: 100%;
+            font-size: 14px;
+            display: flex;
+            flex-direction: row;
+            &>li{
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 8px 2px;
+                font-size: 12px;
+                border-left: 1px solid #f7f7f7;
+                &:first-child{
+                    border-left-color: #FFF;
+                }
+                img{
+                    width: 32px;
+                    height: 32px;
+                }
+                span{
+                    color: #9e9c9c;
+                    margin-top: 3px;
+                }
+            }
+        }
+    }
+}

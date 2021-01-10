@@ -1,0 +1,81 @@
+.auction-order-bid{
+    .header{
+        text-align: center;
+        color: #FFF;
+        line-height: 40px;
+        font-size: 14px;
+        span{
+            margin: 0px 5px;
+        }
+    }
+    .body{
+
+        .tips{
+            padding: 3px 8px;
+            line-height: 18px;
+            background-color: #f6eac5;
+            color: #807e7e;
+            font-size: 12px;
+        }
+        .product{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            height: 68px;
+            background-color: #FFF;
+            margin: 10px 0px;
+            .logo{
+                height: 100%;
+                width: 68px;
+            }
+            .fields{
+                padding: 5px;
+                flex: 1;
+                .price{
+                    font-size: 10px;
+                }
+            }
+        }
+        .action{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            padding: 20px;
+            background-color: #FFF;
+            margin: 10px 0px;
+            .value{
+                line-height: 60px;
+                font-size: 30px;
+                font-weight: bold;
+            }
+            .icon{
+                padding: 16px 20px;
+                border: 2px solid #CCC;
+                border-radius: 100%;
+                font-size: 24px;
+                &.disabled {
+                    color: #CCC !important;
+                }
+                &:active{
+                    background-color: #800010;
+                    color: #FFF;
+                }
+            }
+        }
+    }
+}
+
+.rt-bid-done{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    .fa{
+        font-size: 48px;
+        color: green;
+    }
+    span{
+        line-height: 30px;
+    }
+}

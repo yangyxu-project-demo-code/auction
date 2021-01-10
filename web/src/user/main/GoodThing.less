@@ -1,0 +1,75 @@
+.auction-good-thing{
+    .gt-header{
+        text-align: center;
+        height: 100%;
+        background-color: #800010;
+        .title{
+            width: 100%;
+            height: 30px;
+            line-height: 30px;
+            background-color: #FFF;
+            color: #8e8e8e;
+            font-weight: bold;
+        }
+
+        .search{
+            border-radius: 5px;
+            margin: 4px;
+            background-color: #FFF;
+            font-size: 13px;
+            line-height: 30px;
+            cursor: pointer;
+        }
+
+        .tips{
+            color: #FFF;
+            padding: 0px 5px;
+            font-size: 12px;
+            line-height: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            span{
+                padding: 2px;
+            }
+            a {
+                text-decoration: none;
+                color: #FFF;
+            }
+        }
+
+
+    }
+
+    .gt-body{
+        .carousel{
+            width: 100%;
+            height: 128px;
+            position: relative;
+            img{
+                height: 128px;
+                object-fit: cover;
+                object-position: center;
+                background-size: contain;
+            }
+        }
+        .category-list{
+            display: flex;
+            flex-direction: row;
+            padding: 5px;
+            .category{
+                flex: 1;
+                padding: 5px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                font-size: 12px;
+                img{
+                    width: 48px;
+                    height: 48px;
+                }
+            }
+        }
+    }
+}

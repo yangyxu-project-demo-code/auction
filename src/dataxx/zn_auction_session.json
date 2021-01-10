@@ -1,0 +1,24 @@
+[
+    {
+        "zn_title": "上海人民法院专场",
+        "status": 1,
+        "isAdv": 1,
+        "typeId": 1,
+        "description": "",
+        "img": "/auction/uploads/catalog/upload_e7bf517435759bd6c950b8ce2792fc9c.jpg",
+        "imgs": "/auction/uploads/catalog/upload_7ae837c2c31e5b77e97235126e074ee4.jpg,",
+        "beginTime": "2017-07-06 10:00:00",
+        "endTime": "2017-08-31 10:00:00"
+    },
+    {
+        "zn_title": "房产拍卖",
+        "status": 1,
+        "isAdv": 1,
+        "typeId": 1,
+        "description": "<p> 房产专场 </p> <p> <iframe src=\"http://app.99zjpm.com/kindeditor/plugins/baidumap/index.html?center=121.460193%2C31.255586&zoom=14&width=558&height=360&markers=121.460193%2C31.255586&markerStyles=l%2CA\" frameborder=\"0\" style=\"width:560px;height:362px;\"> </iframe> </p>",
+        "img": "/auction/uploads/catalog/upload_75497964358c29ef1f51dff967c25c99.jpg",
+        "imgs": "/auction/uploads/catalog/upload_40f7d11a0705ca1941a0aa085cab4ab3.jpg,/auction/uploads/catalog/upload_c40fdee6b8ecde069f28b864ab9a19ba.jpg,",
+        "beginTime": "2017-08-09 00:00:00",
+        "endTime": "2017-08-18 00:00:00"
+    }
+]

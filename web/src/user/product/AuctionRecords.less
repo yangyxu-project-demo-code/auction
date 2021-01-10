@@ -1,0 +1,31 @@
+.rt-auction-records {
+    .header{
+
+    }
+    .body{
+        .item{
+            border-bottom: 1px dashed #eee;
+            margin: 3px;
+        }
+    }
+    .item{
+        display: flex;
+        flex-direction: row;
+        line-height: 28px;
+        font-size: 12px;
+
+        &>li{
+            flex: 1;
+            padding-left: 5px;
+        }
+        &>li:nth-child(1){
+            max-width: 40px !important;
+        }
+        &>li:nth-child(2){
+            max-width: 50px !important;
+        }
+        &>li:last-child{
+            flex: 2;
+        }
+    }
+}

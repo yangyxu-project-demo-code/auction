@@ -1,0 +1,34 @@
+.auction-main{
+    color: #8e8e8e;
+    .rt-layout-header{
+        background-color: #f0f0f0;
+    }
+    .nav-menu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+        border-top: 1px solid #eee;
+        color: #8e8e8e;
+        height: 100%;
+        &>li{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex-grow: 1;
+            text-align: center;
+            padding: 2px;
+            height: 100%;
+            i{
+                font-size: 22px;
+            }
+            span{
+                font-size: 12px;
+            }
+            &.curr{
+                color: #800010 !important;
+            }
+        }
+    }
+}

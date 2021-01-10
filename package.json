@@ -1,0 +1,26 @@
+{
+  "name": "auction",
+  "version": "0.1.0",
+  "description": "中建拍卖",
+  "main": "index.js",
+  "scripts": {
+    "release": "nohup zn run config:zn.server.config.js &",
+    "debug": "zn run config:zn.server.config.js",
+    "local": "zn run zn_path:../../zn/zeanium-node/",
+    "install.release": "npm install --production",
+    "install.dev": "npm install"
+  },
+  "keywords": [
+    "Project"
+  ],
+  "author": "yangyxu",
+  "license": "MIT",
+  "devDependencies": {
+    "zeanium-react-web": "^0.1.26"
+  },
+  "dependencies": {
+    "nodemailer": "^2.6.4",
+    "zn-plugin-admin": "^0.1.19",
+    "zn-plugin-alipay": "^0.1.4"
+  }
+}

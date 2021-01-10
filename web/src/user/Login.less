@@ -1,0 +1,77 @@
+.rt-login-page{
+
+    .form-login{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        & > div{
+            flex-grow: 1;
+            width: 100%;
+            border: none;
+        }
+        .logo{
+            width: 6.4rem;
+            height: 6.4rem;
+            margin: 6rem;
+        }
+        .links{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            font-size: 14px;
+            a{
+                padding: 8px;
+                text-decoration: none;
+                color: #8b8282;
+            }
+        }
+
+    }
+
+    .lock-login{
+        .tips {
+            text-align: center;
+            margin-top: 50px;
+            font-weight: bold;
+            color: #9E9E9E;
+
+            &.error{
+                color: #ed4d42;
+            }
+
+            &.ok{
+                color: #05be05;
+            }
+        }
+
+        .reset{
+            position: absolute;
+            right: 0px;
+            top: 0px;
+            padding: 5px;
+            font-size: 12px;
+        }
+    }
+
+    .copy-right{
+        margin-top: 50px;
+        font-size: 12px;
+        color: #8E3334;
+        text-align: center;
+        font-weight: bolder;
+    }
+
+    .switch{
+        text-align: right;
+        font-size: 20px;
+        position: absolute;
+        .fa{
+            border: 2px solid #952a08;
+            border-radius: 100%;
+            padding: 5px 8px;
+            color: #952a08;
+            margin: 20px;
+        }
+    }
+
+}

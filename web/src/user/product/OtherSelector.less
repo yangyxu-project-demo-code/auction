@@ -1,0 +1,41 @@
+.rt-other-selector{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .body{
+        .values{
+            li{
+                padding: 6px;
+                .title{
+                    color: #b3b3b3;
+                    line-height: 25px;
+                    font-size: 13px;
+                }
+                .vars{
+                    overflow: hidden;
+                    span{
+                        padding: 5px 12px;
+                        border: 1px solid #605d5d;
+                        border-radius: 5px;
+                        color: #605d5d;
+                        margin: 5px;
+                        width: 110px;
+                        margin-left: 0px;
+                        text-align: center;
+                        float: left;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        &>div{
+            flex: 1;
+            margin: 5px;
+        }
+    }
+}

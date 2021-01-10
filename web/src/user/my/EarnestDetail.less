@@ -1,0 +1,62 @@
+.auction-earnest-detail{
+    .info{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: #FFF;
+        .icon{
+            width: 96px;
+            min-height: 96px;
+            height: 100% !important;
+        }
+
+        .fields{
+            padding: 3px 2px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .title{
+                font-weight: bold;
+
+            }
+            .field{
+                font-size: 13px;
+                line-height: 25px;
+            }
+            .price{
+
+                font-size: 13px;
+                color: red;
+            }
+        }
+    }
+
+    .bids{
+        padding: 3px 0px;
+        margin-top: 5px;
+        &>li{
+            background-color: #FFF;
+            margin: 5px 0px;
+            padding: 8px;
+            font-size: 14px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            .status{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                span{
+                    padding: 3px;
+                    border: 2px solid #b94b4b;
+                    color: #b94b4b;
+                }
+            }
+            .price{
+                font-size: 16px;
+                font-weight: bolder;
+                color:red;
+            }
+        }
+    }
+}

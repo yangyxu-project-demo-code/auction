@@ -1,0 +1,14 @@
+zn.define([
+    './AuctionMerchant',
+    './AuctionMerchantUser',
+    './AuctionMessage',
+    './AuctionOrder',
+    './AuctionOrderBid',
+    './AuctionProduct',
+    './AuctionProductType',
+    './AuctionSession',
+    './AuctionUser',
+    './AuctionUserAddress',
+    './AuctionUserCollection',
+    './AuctionUserRemind'
+]);

@@ -1,0 +1,53 @@
+.rt-user-order{
+    .order-list{
+        &>li{
+            border: 1px solid #CCC;
+            margin: 6px;
+            background-color: #FFF;
+            &:hover{
+                border-color: #86211a;
+            }
+            .product{
+                display: flex;
+                flex-direction: row;
+
+                .logo {
+                    width: 68px;
+                    height: 68px;
+                }
+                .info {
+                    padding: 3px 6px;
+                    position: relative;
+                    width: 100%;
+                    .create-time{
+                        font-size: 12px;
+                        position: absolute;
+                        right: 0px;
+                        top: 0px;
+                    }
+                    .title{
+
+                    }
+                    .price{
+                        font-size: 14px;
+                        line-height: 24px;
+                        span:first-child{
+                            padding-right: 8px;
+                            color: #8f8b8b;
+                        }
+                        span:last-child{
+                            color: #86211a;
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+            .action{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+            }
+        }
+    }
+}

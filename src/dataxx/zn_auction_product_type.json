@@ -1,0 +1,42 @@
+[
+    {
+        "zn_title": "司法拍卖",
+        "href": "/product/list/sifa",
+        "alias": "国际指定拍卖机构",
+        "vars": ",17,18,19,20,21,22,23,",
+        "img": "/auction/uploads/catalog/upload_21508a86b3107f2d90b2a3b1c7055d84.png"
+    },
+    {
+        "zn_title": "资产处置",
+        "href": "/product/list/zichan",
+        "alias": "低价抛售",
+        "vars": ",17,18,19,20,21,22,23,",
+        "img": "/auction/uploads/catalog/upload_686bd68baf71a923b8677eafb6c0c23b.PNG"
+    },
+    {
+        "zn_title": "珍品拍卖",
+        "href": "/product/list/zhenping",
+        "vars": ",17,18,19,20,21,22,23,",
+        "img": "/auction/uploads/catalog/upload_864ca25c92fe6603c03521c407eae9f3.PNG"
+    },
+    {
+        "zn_title": "汽车",
+        "vars": ",17,18,19,20,21,22,23,",
+        "img": "/auction/uploads/catalog/upload_0a59c2c368aecba7e4a83858b56bd0ab.png"
+    },
+    {
+        "zn_tree_pid": 3,
+        "zn_title": "古董字画",
+        "img": "/auction/uploads/catalog/upload_9eb7ac9d4b942583ffe7784d9aa48e09.PNG"
+    },
+    {
+        "zn_tree_pid": 3,
+        "zn_title": "瓷器",
+        "img": "/auction/uploads/catalog/upload_653a9effbe4a63d2bef03633daf0c4bc.png"
+    },
+    {
+        "zn_tree_pid": 3,
+        "zn_title": "宝石",
+        "img": "/auction/uploads/catalog/upload_a9ce964fa2d4e557396bbfd4cdb236e4.PNG"
+    }
+]
