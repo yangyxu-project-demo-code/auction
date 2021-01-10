@@ -1,0 +1,8 @@
+.idea/*
+.DS_Store
+.git
+.gitosc
+run
+node_modules/*
+!node_modules/node-static
+npm-debug.log
